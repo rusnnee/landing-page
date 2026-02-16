@@ -1,0 +1,171 @@
+*{
+    border: 2px solid red;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* FIRST */
+
+.first{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links{
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content-header{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    display: box;
+}
+
+.left-content-button{
+    background-color: #3882F6;
+    padding: 8px;
+    border-radius: 5px;
+
+    flex: none; 
+    width: 80px;
+    text-align: center;
+}
+
+
+/* SECOND */
+.second{
+ display: flex;
+ flex-direction: column;
+ 
+ justify-content: center;
+ align-items: center;
+ 
+ color: #1F2937;
+}
+
+.second-title{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.second-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.box-and-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+
+}
+.box{
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+.text{
+
+    text-align: center;
+}
+
+/* THIRD */
+
+.third{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: baseline;
+    
+    background-color: #E5E7EB;
+    color: #1F2937;
+
+    padding: 100px;
+    gap: 24px;
+
+}
+
+.qoute{
+    font-size: 36px;
+    font-weight: 100;
+    text-align:justify;
+    font-style: italic;
+}
+
+.author{
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+/* FOURTH */
+
+.fourth{
+    display: flex;
+    padding: 50px;
+    margin: 100px;
+    background-color:#3882F6;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-border{
+    border: 2px solid #E5E7EB;
+}
