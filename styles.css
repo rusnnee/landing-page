@@ -51,11 +51,18 @@ a{
 .first-content{
     display: flex;
     flex-direction: row;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; 
 }
 
 .left-content{
     display: flex;
     flex-direction: column;
+
+    gap: 12px; 
+    flex: auto; 
 }
 
 .left-content-header{
@@ -66,7 +73,7 @@ a{
 img{
     width: 200px;
     height: auto;
-    display: box;
+    flex: none; 
 }
 
 .left-content-button{
@@ -89,12 +96,18 @@ img{
  align-items: center;
  
  color: #1F2937;
+
+ padding: 48px;
+ gap: 24px; 
 }
 
 .second-title{
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
+
+    margin: 0px;
+    padding: 0px;
 }
 
 .second-boxes{
@@ -112,6 +125,7 @@ img{
 
     width: 150px;
 
+    padding: 12px; ;
 }
 .box{
     border: 2px solid #3882F6;
@@ -123,6 +137,8 @@ img{
 .text{
 
     text-align: center;
+    margin: 0px;
+    padding: 0px; 
 }
 
 /* THIRD */
